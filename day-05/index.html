@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue3 day-05</title>
+    <script src="vue.global.js"></script>
+    <style>
+      .increment{
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+        <h1>Vue js {{title}}</h1>
+        <p>{{printName()}}</p>
+        <p>Count: {{count}}</p>
+        <button class="increment" @click="increment()">increment</button>
+        <button class="decrement" @click="decrement()">decrement</button>
+        
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
