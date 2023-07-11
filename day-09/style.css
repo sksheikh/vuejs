@@ -1,0 +1,32 @@
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.button{
+    padding: 10px 25px;
+    margin: 0 5px;
+}
+
+.active{
+    background-color: #16053e;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.bold{
+    font-weight: bold;
+}
